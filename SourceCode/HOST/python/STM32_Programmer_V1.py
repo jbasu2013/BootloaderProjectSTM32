@@ -1,9 +1,10 @@
+#----------------------------- Package to be imported, ----------------------------------------
 import serial
 import struct
 import os
 import sys
 import glob
-
+#----------------------------- Flash related macros----------------------------------------
 Flash_HAL_OK                                        = 0x00
 Flash_HAL_ERROR                                     = 0x01
 Flash_HAL_BUSY                                      = 0x02
